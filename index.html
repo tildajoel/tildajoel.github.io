@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tilda och Joel - 23 oktober 2021</title>
+    <link rel = "icon" href = "Pictures/favicon.png" type = "image/png"/>
+    <link rel = "stylesheet" href = "stylesheet.css">
+    <meta charset = "utf-8">
+    <meta name = "viewport" content = "width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name = "theme-color" content = "#f9f9f9">
+    <link href = "https://fonts.googleapis.com/css?family=Fjalla+One" rel = "stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <script src = "http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  </head>
+  <body>
+      <div class = "menu-row"><div class = "logotype"></div>
+        <div class = "a-list"><img class = "a-sigill" src = "Pictures/hemsida svartvit logo.png"><a class = "a-hem" href = "">Hem</a>
+          <a class = "a-schema" href = "#schema">Schema</a><a class = "a-wedding-party" href = "#bröllopsfölje">Bröllopsfölje</a><a class = "a-speach" href = "#tal">Tal</a><a class = "a-information" href = "#information">Viktig information</a><a class = "a-osa" href = "https://docs.google.com/forms/d/1toi9mUNQa1NmzEieYmwWte-lMv5z239nuX7mu31idV0/edit?usp=sharing" target = "_blank">OSA</a>
+        </div>
+      </div>
+  <div class = "section1"><img src ="Pictures/tildajoel.png"></div>
+  <div class = "section2"><h1>Fira vårt bröllop och livets fest <br> tillsammans med oss</h1></br><h2>23 oktober 2021</h2><h2><a href = "https://docs.google.com/forms/d/1toi9mUNQa1NmzEieYmwWte-lMv5z239nuX7mu31idV0/edit?usp=sharing" target = "_blank">→ OSA ←</a></h2></div>
+  <div class="section3" id="schema">
+    <div class = "section3-text-field">
+      <h2>Schema</h2>
+          <p>•</p>
+      <h3>Lördag 23 oktober</h3>
+      <p>13:30 Incheckning på Grytsbergs Säteri</p>
+      <p>16:00 Vigsel i Gryts kyrka</p>
+      <p>18:00- Middag och festligheter</p>
+    <br>
+      <p>Dresscode: Smoking</p>
+      <p>•</p>
+      <h3>Söndag 24 oktober</h3>
+      <p>09:00-11:00 Gemensam frukost i bistron på Grytsbergs Säteri</p>
+    <br>
+      <p>•</p>
+    </div>
+  </div>
+  <div class = "section4">
+        <div class = "dhms">
+          <span id = "value-days"></span>
+        <br>
+          <span class = "timer-type">Dagar</span>
+        </div>
+        <div class = "dhms">
+          <span id = "value-hours"></span>
+        <br>
+          <span class = "timer-type">Timmar</span>
+        </div>
+        <div class = "dhms">
+          <span id = "value-minutes"></span>
+        <br>
+          <span class = "timer-type">Minuter</span>
+        </div>
+        <div class = "dhms">
+          <span id = "value-seconds"></span>
+        <br>
+          <span class = "timer-type">Sekunder</span>
+        </div>
+    </div>
+      <script>
+      // Set the date we're counting down to
+      var countDownDate = new Date("Oct 23, 2021 14:30:00").getTime();
+      var x = setInterval(function() {
+        var now = new Date().getTime();
+        var distance = countDownDate - now;
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        // Output the result in an element with id
+        document.getElementById("value-days").innerHTML = days + "";
+        document.getElementById("value-hours").innerHTML = hours + "";
+        document.getElementById("value-minutes").innerHTML = minutes + "";
+        document.getElementById("value-seconds").innerHTML = seconds + "";
+        // If the count down is over, write some text
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("value").innerHTML = "JUST MARRIED";
+        }
+      }, 1000);
+      </script>
+</div>
+  <div class="section5" id="bröllopsfölje">
+    <div class = "section5-text-field">
+      <h2>Bröllopsfölje</h2>
+          <p>•</p>
+          <div class = "bröllopsfölje-up">
+              <div class = "bröllopsfölje-person">
+                <img src = "Pictures/Philip.png">
+                <h3>Philip Kornmann - Marskalk</h3>
+                <p><b>👰 Brudens kommentar:</b>
+  <br>
+                  "Philip & Joel = Piff & Puff.
+                  Philip med Piff's logiskt tänkande och fräckhet, Joel med Puff's fantasi och tandglugg.
+                  Dessa två tillsammans är ett av mina absolut favorit umgängen och Philip är alltid välkommen som en del av vår familj!"</p>
+  <br>
+                <p>🤵<b>‍ Brudgummens kommentar:</b>
+                  <p>Philip har varit min närmsta vän och största rival sedan andra klass på Sigfridsborgsskolan. Han var även Ältas näst coolaste kille åren 1997-2004, en stor bravad. Philip är hjärta, värme och kärlek. Efter 25 års vänskap har jag fortfarande aldrig hört Philip säga “jag ger mig”. Extremt störande. Hans kämparglöd har varit lika intensiv på grusiga fotbollsplaner som i akademins salar och schweiziska kontorslandskap.
+Att Philip är till yrket är en serieentreprenör inom finans begränsar knappast hans generositet mot vänner och familj, som är oöverträffad. Ett bra exempel på detta är alla otaliga resor och fester som jag och Tilda firat tillsammans med Philip och hans bedårande hustru Lydia. Som mång en gång förr var Philip min Bacchus även under kvällen jag träffade Tilda för första gången. Han var även den första vän att bli introducerad för henne. Att ha Philip vid min sida under vår dag har för mig varit självklart länge, men något jag aldrig tagit för givet. Familjen Odermann har en särskild plats i vårt liv.
+</p>
+              </div>
+              <div class = "bröllopsfölje-person">
+                <img src = "Pictures/Moa.png">
+                <h3>Moa Dahlgren - Brudtärna</h3>
+                <p><b>👰 Brudens kommentar:</b>
+  <br>
+                  "Min syster och bästa vän genom livet!
+                  Även om vi kanske inte alltid varit bästa vänner.. Det var en tuffare period under den tidiga uppväxten när Moa kom in i mitt barnrum sjungades på sånger som <i>"Lilla snigel akta dig"</i> med ett elakt leende på läpparna.. hon var inte där för att leka.
+                  Men under tonåren bondande vi ett starkt vänskapsband som håller sig starkt än idag. Så otroligt tacksam att vi har vår fina vänskap och systerskap!"</p>
+  <br>
+                <p>🤵<b>‍ Brudgummens kommentar: </b>
+                  <p>Moa har varit med hela vägen, från första kvällen jag träffade Tilda. Moas öga för detalj och stil är en fantastiskt tillgång i hennes yrke som art director, men en direkt utmaning för mig som aspirerande svåger. Hon synar allt. Trots att vi har kommit en lång väg vet jag fortfarande inte om jag är godkänd. Att hon och hennes man Viktor nyligen blivit föräldrar till Freja har inte förbättrat mitt läge nämnvärt, men jag är mycket glad för deras skull.
+</p>
+              </div>
+          </div>
+          <div class = "bröllopsfölje-down">
+              <div class = "bröllopsfölje-person">
+                <img src = "Pictures/anna.png">
+                <h3>Anna Furenmo - Toastmaster</h3>
+                <p><b>👰 Brudens kommentar:</b>
+  <br>
+                "Anna och jag lärde känna varandra i högstadiet. Efter ett år som nära vännar flyttade Anna till Dubai under en längre tid. Sorgen för att vi inte fick umgås varje dag i skolan speglade sig på ett av mina modelluppdrag tidigt i karriären då fotografen ville ha en bild med en gråtandes tår - visste jag att jag kunde leverera en äkta sådan av att tänka på hur mycket jag saknade Anna.
+                Trots att vi båda bott i olika delar av världen under stora perioder av vår vänskap, har vår vänskap alltid varit en självklarhet. Lika självklart som att ha dig som vår Toastmadame!"</p>
+  <br>
+                <p>🤵<b>‍ Brudgummens kommentar:</b>
+                  <p>De alldeles för få tillfällen jag fått hänga med Anna har jag slagits av hennes varma energi och självsäkra trygghet. Anna bröt nyss upp från en lovande karriär inom media för att satsa på scenkonst och filmproduktion, jag är övertygad om att vi får se prov på detta under kvällen. Tagning!
+</p>
+              </div>
+              <div class = "bröllopsfölje-person">
+                <img src = "Pictures/erik.png">
+                <h3>Erik Lindblad - Toastmaster</h3>
+                <p><b>👰 Brudens kommentar:</b>
+  <br>
+                  "Som troligtvis en av världens bästa värdar för middagar och fester är det givet att Erik ska vara vår Toastmaster. Inte bara är Erik en bra värd, utan har även tillsammans med min blivande man en erfarenhet inom mixologi på Brasiliens stränder. Nog har jag svårt att tro att någon kan sälja Bellinis bättre än Erik och Joel i badshorts och generöst uppknäppta skjortor."</p>
+  <br>
+                <p>🤵<b>‍ Brudgummens kommentar:</b>
+                  <p>När min 30 årskris slog till vid 24 års ålder fanns Erik redo att ta med mig på mitt livs äventyr. Jag kan än idag inte tänka mig en bättre kompanjon att utforska okänd terräng och hav med.
+Erik är due-due, en mix av nordisk praktik och italiensk äventyrslustan. Erik är handlingskraft personifierat och hans breda palette kan kanske bäst beskrivas (men låter sig aldrig definieras) av sitt spektakulära CV, som i kronologisk ordning lyder: Bagare, Jäger-meister, oljetrader, bartender, skeppare, fryst fruktgrossist, kalsongförsäljare, finans VD. Med Erik vid rodret kommer vi alltid hem, mätta och belåtna.
+</p>
+              </div>
+          </div>
+          <p>•</p>
+    </div>
+  </div>
+  <div class="section6" id="tal">
+    <div class = "tal">
+      <h1>Vill du hålla tal?</h1>
+      <h2>Skicka ett mail till teamtildajoel@gmail.com</h2>
+    </div>
+  </div>
+
+  <div class="section7" id="information">
+    <div class = "section3-text-field">
+      <h2>Viktig information</h2>
+          <p>•</p>
+          <h3>Nedan finns svar på frågor man kan tänkas ha inför bröllopet.</br>Vid andra frågor, skicka ett mail till: teamtildajoel@gmail.com</h3>
+          <div class = "faq-questions">
+            <p><b>Var ligger Grytsbergs Säteri?</b></p>
+            <p>Grytsbergs Säteri ligger i en vacker, sjönära miljö strax utanför Stjärnhov i Södermanland. Knappt 1,5 timme med bil från Stockholm.</p>
+            <a href = "https://goo.gl/maps/gYM5VivDGuuTstVZ7" target = "_blank">Klicka här för att se på Google Maps!</a>
+            </br><p><b>Var ligger Gryts Kyrka?</b></p>
+            <p>Gryts kyrka ligger precis intill Grytsbergs Säteri, cirka en 3 minuters promenad.</p>
+            <p><b>Är det övernattning?</b></p>
+            <p>Ja, övernattning är reserverat för samtliga gäster den 23-24 oktober och betalas på plats i receptionen. Ni som gäster behöver alltså inte boka eller betala något i förväg. Kostnad per person/natt ligger på 1200 kr inklusive frukost. Lakan, handdukar och städning ingår.</p>
+            <p><b>Är barn tillåtna?</b></p>
+            <p>Vi har 18-årsgräns på hela bröllopet. Nyfödda ammandes barn är tillåtna, men med hänsyn till resterande gäster bör tas ut ur lokalen vid störande ljud.</p>
+            <p><b>Är djur tillåtna?</b></p>
+            <p>Djur är ej tillåtna.</p>
+            <p><b>Vad är det för dresscode?</b></p>
+            <p>Smoking</p>
+            <p><b>Vad önskar brudparet i bröllopspresent?</b></p>
+            <p>Att ni är med och firar oss under denna helg är tillräcklig bröllopspresent. Tack bästa ni!</p>
+            <p><b>Hur kan jag OSA? När är sista datumet för OSA?</b></p>
+            <p><a href = "https://docs.google.com/forms/d/1toi9mUNQa1NmzEieYmwWte-lMv5z239nuX7mu31idV0/edit?usp=sharing" target = "_blank">Klicka här för att OSA! </a>Sista datumet för att OSA är 20 augusti.</p>
+            <p><b>Hur anmäler jag intresse för att hålla ett bröllopstal?</b></p>
+            <p>Skicka ett mail till våra toastmasters: teamtildajoel@gmail.com</p>
+            <p><b>COVID-19 information:</b></p>
+            <p>Vi håller oss uppdaterade på rekommendationerna och känner oss optimistiska!</p>
+          </div>
+          <p>•</p>
+    </div>
+  </div>
+<div class = "footer-image">
+  <img src="Pictures/group.jpg">
+</div>
+    <footer>
+      Website built by Tilda Dahlgren <span style = "color: #ed0000;">♥</span> 2021
+    </footer>
+  </body>
+</html>
