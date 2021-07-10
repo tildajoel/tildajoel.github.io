@@ -1,704 +1,215 @@
-html, body {
-  width: 100%;
-  min-height: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-  overflow-x: hidden;
-  scroll-behavior: smooth;
-}
-
-a {
-  cursor: pointer;
-}
-
-a:hover {
-  cursor: pointer;
-}
-
-#nav-header {
-  position: fixed;
-  width: 100%;
-  height: 65px;
-  background-color: #f4f4f4;
-  border-bottom: 1px solid #4E4741;
-  z-index: 100;
-}
-
-.navbar-toggler {
-  margin-top: 5px;
-}
-
-.navbar-brand {
-  margin-left: 10px;
-}
-
-.navbar-collapse {
-  padding: 20px;
-  text-align: right;
-  background-color: #f4f4f4;
-  z-index: 100;
-  border-left: 1px solid #4E4741;
-  border-right: 1px solid #4E4741;
-  border-bottom: 1px solid #4E4741;
-  margin-top: 8px;
-}
-
-.nav-link {
-  font-family: "Josefin Sans", "Montserrat", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #4E4741;
-}
-
-#nav-osa {
-  font-weight: 500;
-  color: #B42D2A;
-}
-
-.section1 {
-  margin: auto;
-  width: 100%;
-  margin-top: 50px;
-  text-align: center;
-  background-image: url("Pictures/hemsida orange bakgrund_3000pixlar.png");
-  background-position: center;
-}
-
-.section1 img {
-  width: 30%;
-  margin: auto;
-  margin-top: 3%;
-  margin-bottom: 2%;
-}
-
-.section2 {
-  width: 100%;
-  height: auto;
-  padding-top: 4%;
-  padding-bottom: 3%;
-  position: relative;
-  background-color: #f4f4f4;
-}
-
-.section2 h1 {
-  text-align: center;
-  font-family: "Josefin Sans", "Montserrat", sans-serif;
-  font-size: 50px;
-  font-weight: 400;
-  letter-spacing: -1px;
-  color: #7b746e;
-  text-transform: uppercase;
-}
-
-.section2 h2 {
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: 30px;
-  font-weight: 400;
-  letter-spacing: 0px;
-  color: #7b746e;
-  margin-top: 0%;
-}
-
-.section2 h3 {
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: 40px;
-  font-weight: 400;
-  letter-spacing: 0px;
-  margin-top: 2%;
-}
-
-.section2 a {
-  color: #B42D2A;
-  text-decoration: none;
-}
-
-.section2 a:hover {
-  color: #B42D2A;
-  text-decoration: none;
-  padding-bottom: 3px;
-  border-bottom: 1px solid #B42D2A;
-}
-
-
-.section3 {
-  width: 100%;
-  padding-top: 4%;
-  padding-bottom: 4%;
-  background-image: url("Pictures/hemsida m-grön bakgrund_3000pixlar.png");
-}
-
-.section3-text-field {
-  margin: auto;
-  width: 50%;
-  padding: 5%;
-  background-color: #f4f4f4;
-}
-
-.section3 h2 {
-  text-align: center;
-  font-family: "Josefin Sans", "Montserrat", sans-serif;
-  font-size: 30px;
-  font-weight: 300;
-  letter-spacing: 0px;
-  color: #7b746e;
-  margin-top: 0px;
-  text-transform: uppercase;
-}
-
-.section3 h3 {
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  letter-spacing: 0px;
-  color: #7b746e;
-  margin-top: 40px;
-  text-transform: uppercase;
-}
-
-.section3 p {
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  letter-spacing: 0px;
-  color: #7b746e;
-}
-
-.section4 {
-  display: flex;
-  width: auto;
-  height: auto;
-  position: relative;
-  background-color: #f4f4f4;
-  padding-left: 24%;
-  padding-right: 24%;
-  padding-top: 6%;
-  padding-bottom: 6%;
-  margin-top: 0px;
-}
-
-.dhms {
-  flex: 1;
-  font-family: "Montserrat", sans-serif;
-  font-size: 30px;
-  text-align: center;
-  font-weight: 300;
-  letter-spacing: 0.6px;
-  text-transform: uppercase;
-}
-
-.timer-type {
-  font-size: 20px;
-}
-
-.section5 {
-  width: 100%;
-  padding-top: 4%;
-  padding-bottom: 4%;
-  background-image: url("Pictures/hemsida rosa bakgrund_3000pixlar.png");
-  background-size: cover;
-}
-
-.section5-text-field {
-  margin: auto;
-  width: 80%;
-  padding: 5%;
-  background-color: #f4f4f4;
-}
-
-.section5 h2 {
-  text-align: center;
-  font-family: "Josefin Sans", "Montserrat", sans-serif;
-  font-size: 30px;
-  font-weight: 300;
-  letter-spacing: 0px;
-  color: #7b746e;
-  margin-top: 0px;
-  text-transform: uppercase;
-}
-
-.section5 p {
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  color: #7b746e;
-}
-
-.section5 img {
-  width: 250px;
-  padding-bottom: 4%;
-}
-
-.bröllopsfölje-up {
-    display: flex;
-    margin: auto;
-    text-align: center;
-}
-
-.bröllopsfölje-person {
-  width: 50%;
-}
-
-.bröllopsfölje-up h3 {
-  margin-top: 0px;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  letter-spacing: 0px;
-  color: #7b746e;
-  text-transform: uppercase;
-}
-
-.bröllopsfölje-up p {
-  width: 80%;
-  margin: auto;
-  text-align: left;
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 0px;
-  color: #7b746e;
-}
-
-.bröllopsfölje-down {
-    display: flex;
-    margin: auto;
-    text-align: center;
-    padding-top: 8%;
-}
-
-.bröllopsfölje-down h3 {
-  margin-top: 0px;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  letter-spacing: 0px;
-  color: #7b746e;
-  text-transform: uppercase;
-}
-
-.bröllopsfölje-down p {
-  width: 80%;
-  margin: auto;
-  text-align: left;
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 0px;
-  color: #7b746e;
-}
-
-.section6 {
-  width: 100%;
-  padding-top: 4%;
-  padding-bottom: 4%;
-  background-color: #f4f4f4;
-}
-
-.section6 h1 {
-  text-align: center;
-  font-family: "Josefin Sans", "Montserrat", sans-serif;
-  font-size: 40px;
-  font-weight: 400;
-  letter-spacing: -1px;
-  color: #7b746e;
-  text-transform: uppercase;
-}
-
-.section6 h2 {
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: 30px;
-  font-weight: 400;
-  letter-spacing: 0px;
-  color: #B42D2A;
-}
-
-.section7 {
-  width: 100%;
-  padding-top: 4%;
-  padding-bottom: 4%;
-  background-image: url("Pictures/hemsida orange bakgrund_3000pixlar.png");
-  background-size: cover;
-}
-
-.section7-text-field {
-  margin: auto;
-  width: 50%;
-  padding: 5%;
-  background-color: #f4f4f4;
-}
-
-.section7 h2 {
-  text-align: center;
-  font-family: "Josefin Sans", "Montserrat", sans-serif;
-  font-size: 30px;
-  font-weight: 300;
-  letter-spacing: 0px;
-  color: #7b746e;
-  margin-top: 0px;
-  text-transform: uppercase;
-}
-
-.section7 h3 {
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 0px;
-  color: #7b746e;
-  margin-top: 0px;
-  text-transform: uppercase;
-}
-
-.section7 p {
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  letter-spacing: 0px;
-  color: #7b746e;
-}
-
-.faq-questions {
-  margin-top: 5%;
-}
-
-.faq-questions p {
-  text-align: left;
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 0px;
-  color: #7b746e;
-}
-
-.faq-questions a {
-  text-align: left;
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 0px;
-  color: #B42D2A;
-  text-decoration: none;
-}
-
-.footer-image {
-  width: 100%;
-  background-color: #f4f4f4;
-  text-align: center;
-  padding-top: 4%;
-  padding-bottom: 4%;
-}
-
-.footer-image img {
-  width:88%;
-}
-
-footer {
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 2rem;
-  font-family: "Fjalla One", sans-serif;
-  font-size: 15px;
-  font-weight: 100;
-  letter-spacing: 0.6px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #7b746e;
-}
-
-@media only screen and (min-width: 2001px) and (max-width: 2560px) {
-}
-
-@media only screen and (min-width: 1501px) and (max-width: 2000px) {
-}
-
-@media only screen and (min-width: 1201px) and (max-width: 1500px) {
-}
-
-@media only screen and (min-width: 1001px) and (max-width: 1200px) {
-}
-
-@media only screen and (min-width: 801px) and (max-width: 1000px) {
-}
-
-@media only screen and (min-width: 501px) and (max-width: 800px) {
-}
-
-@media only screen and (max-width: 450px) {
-
-  #nav-header {
-    position: fixed;
-    width: 100%;
-    height: 65px;
-    background-color: #f4f4f4;
-    border-bottom: 1px solid #4E4741;
-    z-index: 100;
-  }
-
-  .navbar-toggler {
-    margin-top: 5px;
-  }
-
-  .navbar-brand {
-    margin-left: 10px;
-  }
-
-  .navbar-collapse {
-    padding: 20px;
-    text-align: right;
-    background-color: #f4f4f4;
-    z-index: 100;
-    border-left: 1px solid #4E4741;
-    border-right: 1px solid #4E4741;
-    border-bottom: 1px solid #4E4741;
-    margin-top: 8px;
-  }
-
-  .nav-link {
-    font-family: "Josefin Sans", "Montserrat", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #4E4741;
-  }
-
-  #nav-osa {
-    font-weight: 500;
-    color: #B42D2A;
-  }
-
-  .section1 {
-    height: 500px;
-    margin-top: 50px;
-  }
-
-  .section1 img {
-    width: 80%;
-    margin-top: 80px;
-    margin-bottom: 2%;
-  }
-
-  .section2 {
-    padding-top: 10%;
-    padding-bottom: 10%;
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-
-  .section2 h1 {
-    font-size: 30px;
-    font-weight: 400;
-  }
-
-  .section2 h2 {
-    font-size: 20px;
-    font-weight: 400;
-    color: #7b746e;
-    margin-top: -20px;
-  }
-
-  .section2 h3 {
-    font-size: 30px;
-    color: #B42D2A;
-    text-decoration: none;
-    margin-top: 30px;
-
-  }
-
-  .section3 {
-    padding-top: 10%;
-    padding-bottom: 10%;
-  }
-
-  .section3-text-field {
-    width: 90%;
-    padding: 5%;
-  }
-
-  .section3 h2 {
-    font-size: 30px;
-    margin-top: 30px;
-  }
-
-  .section3 h3 {
-    font-size: 16px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-
-  .section3 p {
-    font-size: 14px;
-    margin: 3px;
-  }
-
-  .section4 {
-    padding-left: 12%;
-    padding-top: 10%;
-    padding-bottom: 10%;
-  }
-
-  .dhms {
-    font-size: 20px;
-    letter-spacing: 0;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .timer-type {
-    font-size: 12px;
-  }
-
-  .section5 {
-    width: 100%;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    background-size: auto;
-  }
-
-  .section5-text-field {
-    width: 90%;
-    padding: 5%;
-  }
-
-  .section5 h2 {
-    font-size: 30px;
-    margin-top: 30px;
-  }
-
-  .section5 p {
-    font-size: 13px;
-    margin: 3px;
-  }
-
-  .section5 img {
-    width: 150px;
-    padding-top: 10%;
-    padding-bottom: 10%;
-  }
-
-  .bröllopsfölje-up {
-      display: block;
-  }
-
-  .bröllopsfölje-person {
-    width: 100%;
-  }
-
-  .bröllopsfölje-up h3 {
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 0px;
-    margin-bottom: 20px;
-    font-size: 18px;
-  }
-
-  .bröllopsfölje-up p {
-    width: 90%;
-    margin: auto;
-    text-align: center;
-    font-size: 14px;
-    letter-spacing: 0px;
-    color: #7b746e;
-  }
-
-  .bröllopsfölje-down {
-      display: block;
-  }
-
-  .bröllopsfölje-down h3 {
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 0px;
-    margin-bottom: 20px;
-    font-size: 18px;
-  }
-
-  .bröllopsfölje-down p {
-    width: 90%;
-    margin: auto;
-    text-align: center;
-    font-size: 14px;
-    letter-spacing: 0px;
-    color: #7b746e;
-  }
-
-  .section6 {
-    padding-top: 10%;
-    padding-bottom: 10%;
-  }
-
-  .section6 h1 {
-    font-size: 30px;
-    letter-spacing: 0px;
-  }
-
-  .section6 h2 {
-    width: 80%;
-    font-size: 20px;
-    text-align: center;
-    margin: 0 auto;
-  }
-
-  .section7 {
-    width: 100%;
-    padding-top: 10%;
-    padding-bottom: 10%;
-  }
-
-  .section7-text-field {
-    width: 90%;
-    padding: 5%;
-  }
-
-  .section7 h2 {
-    font-size: 30px;
-    margin-top: 30px;
-  }
-
-  .section7 h3 {
-    font-size: 16px;
-    margin-top: 20px;
-    margin-bottom: 40px;
-  }
-
-  .faq-questions {
-  width: 100%;
-  text-align: center;
-}
-
-  .faq-questions p {
-    text-align: center;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 0px;
-    color: #7b746e;
-    margin: 10px;
-  }
-
-  .faq-questions a {
-    text-align: center;
-    font-size: 14px;
-    text-decoration: none;
-  }
-
-  .footer-image {
-    width: 100%;
-    text-align: center;
-    padding-top: 10%;
-    padding-bottom: 10%;
-  }
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tilda och Joel - 23 oktober 2021</title>
+    <link rel = "icon" href = "Pictures/favicon.png" type = "image/png"/>
+    <link rel = "stylesheet" href = "stylesheet.css">
+    <meta charset = "utf-8">
+    <meta name = "theme-color" content = "#f9f9f9">
+    <link href = "https://fonts.googleapis.com/css?family=Fjalla+One" rel = "stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+
+
+    <div class="header">
+      <div class = "sigill"><img src = "Pictures/hemsida svartvit logo.png"></div>
+    <div class="topnav" id="myTopnav">
+      <a href="javascript:void(0);" class="icon" onclick="toggleState()">&#9776;</a>
+      <a href= "https://docs.google.com/forms/d/1toi9mUNQa1NmzEieYmwWte-lMv5z239nuX7mu31idV0/edit?usp=sharing" target = "_blank" class = "link" >OSA</a>
+      <a href="#info">Information</a>
+      <a href="#team">Team TJ</a>
+      <a href="#schema">Schema</a>
+      <a href="">Hem</a>
+    </div>
+  </div>
+
+  <script>
+  function toggleState() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
   }
 }
+</script>
+
+      </div>
+  <div class = "section1"><img src ="Pictures/tildajoel.png"></div>
+  <div class = "section2"><h1>Fira vårt bröllop och livets fest <br> tillsammans med oss</h1></br><h2>23 oktober 2021</h2><h3><a href = "https://docs.google.com/forms/d/1toi9mUNQa1NmzEieYmwWte-lMv5z239nuX7mu31idV0/edit?usp=sharing" target = "_blank">→ OSA ←</a></h3></div>
+  <div class="section3" id="schema">
+    <div class = "section3-text-field">
+      <h2>Schema</h2>
+          <p>•</p>
+      <h3>Lördag 23 oktober</h3>
+      <p>13:30 Incheckning på Grytsbergs Säteri</p>
+      <p>16:00 Vigsel i Gryts kyrka</p>
+      <p>18:00- Middag och festligheter</p>
+    <br>
+      <p>Dresscode: Smoking</p>
+      <p>•</p>
+      <h3>Söndag 24 oktober</h3>
+      <p>09:00-11:00 Gemensam frukost i bistron på Grytsbergs Säteri</p>
+    <br>
+      <p>•</p>
+    </div>
+  </div>
+  <div class = "section4">
+        <div class = "dhms">
+          <span id = "value-days"></span>
+        <br>
+          <span class = "timer-type">Dagar</span>
+        </div>
+        <div class = "dhms">
+          <span id = "value-hours"></span>
+        <br>
+          <span class = "timer-type">Timmar</span>
+        </div>
+        <div class = "dhms">
+          <span id = "value-minutes"></span>
+        <br>
+          <span class = "timer-type">Minuter</span>
+        </div>
+        <div class = "dhms">
+          <span id = "value-seconds"></span>
+        <br>
+          <span class = "timer-type">Sekunder</span>
+        </div>
+    </div>
+      <script>
+      // Set the date we're counting down to
+      var countDownDate = new Date("Oct 23, 2021 14:30:00").getTime();
+      var x = setInterval(function() {
+        var now = new Date().getTime();
+        var distance = countDownDate - now;
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        // Output the result in an element with id
+        document.getElementById("value-days").innerHTML = days + "";
+        document.getElementById("value-hours").innerHTML = hours + "";
+        document.getElementById("value-minutes").innerHTML = minutes + "";
+        document.getElementById("value-seconds").innerHTML = seconds + "";
+        // If the count down is over, write some text
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("value").innerHTML = "JUST MARRIED";
+        }
+      }, 1000);
+      </script>
+</div>
+  <div class="section5" id="team">
+    <div class = "section5-text-field">
+      <h2>Team TJ</h2>
+          <p>•</p>
+          <div class = "bröllopsfölje-up">
+              <div class = "bröllopsfölje-person">
+                <img src = "Pictures/philip.png">
+                <h3>Philip Kornmann - Marskalk</h3>
+                <p><b>👰 Brudens kommentar:</b>
+  <br>
+                  "Philip & Joel = Piff & Puff.
+                  Philip med Piff's logiskt tänkande och fräckhet, Joel med Puff's fantasi och tandglugg.
+                  Dessa två tillsammans är ett av mina absolut favorit umgängen och Philip är alltid välkommen som en del av vår familj!"</p>
+  <br>
+                <p>🤵<b>‍ Brudgummens kommentar:</b>
+                  <p>Philip har varit min närmsta vän och största rival sedan andra klass. Han var även Ältas näst coolaste kille åren 1997-2004, en stor bravad... Efter 25 års vänskap har jag fortfarande aldrig hört Philip säga “jag ger mig”. Extremt störande. Hans kämparglöd har varit lika intensiv på grusiga fotbollsplaner som i akademins salar och schweiziska konferensrum.
+Tillsammans med Philip och hans fantastiska fru Lydia har vi rest och firat, sörjt och filosoferat. Familjen Odermann har onekligen en viktig plats i vårt liv. Som mång en gång förr var Philip även min Bacchus kvällen jag träffade Tilda för första gången.
+</p>
+              </div>
+              <div class = "bröllopsfölje-person">
+                <img src = "Pictures/moa.png">
+                <h3>Moa Ternblom - Brudtärna</h3>
+                <p><b>👰 Brudens kommentar:</b>
+  <br>
+                  "Min syster och bästa vän genom livet!
+                  Även om vi kanske inte alltid varit bästa vänner.. Det var en tuffare period under den tidiga uppväxten när Moa kom in i mitt barnrum sjungades på sånger som <i>"Lilla snigel akta dig"</i> med ett elakt leende på läpparna.. hon var inte där för att leka.
+                  Men under tonåren bondande vi ett starkt vänskapsband som håller sig starkt än idag. Så otroligt tacksam att vi har vår fina vänskap och systerskap!"</p>
+  <br>
+                <p>🤵<b>‍ Brudgummens kommentar: </b>
+                  <p>Moa har varit med hela vägen, från första kvällen jag träffade Tilda. Moas öga för detalj och stil är en fantastiskt tillgång i hennes yrke som art director, men en direkt utmaning för mig som aspirerande svåger. Hon synar allt.
+Trots att vi har kommit en lång väg vet jag fortfarande inte om jag är godkänd. Att hon och hennes man Victor nyligen blivit föräldrar till Freja har inte förbättrat mitt läge nämnvärt, men jag är mycket glad för deras skull.
+</p>
+              </div>
+          </div>
+          <div class = "bröllopsfölje-down">
+              <div class = "bröllopsfölje-person">
+                <img src = "Pictures/anna.png">
+                <h3>Anna Furenmo - Toastmaster</h3>
+                <p><b>👰 Brudens kommentar:</b>
+  <br>
+                "Anna och jag lärde känna varandra i högstadiet. Efter ett år som nära vännar flyttade Anna till Dubai under en längre tid. Sorgen för att vi inte fick umgås varje dag i skolan speglade sig på ett av mina modelluppdrag tidigt i karriären då fotografen ville ha en bild med en gråtandes tår - visste jag att jag kunde leverera en äkta sådan av att tänka på hur mycket jag saknade Anna.
+                Trots att vi båda bott i olika delar av världen under stora perioder av vår vänskap, har vår vänskap alltid varit en självklarhet. Lika självklart som att ha dig som vår Toastmadame!"</p>
+  <br>
+                <p>🤵<b>‍ Brudgummens kommentar:</b>
+                  <p>De alldeles för få tillfällen jag fått hänga med Anna har jag slagits av hennes varma energi och trygghet. Anna bröt nyligen upp från en lovande karriär inom media för att satsa på scenkonst och filmproduktion. Jag är övertygad om att vi får se prov på detta under festen. Tagning!
+</p>
+              </div>
+              <div class = "bröllopsfölje-person">
+                <img src = "Pictures/erik.png">
+                <h3>Erik Lindblad - Toastmaster</h3>
+                <p><b>👰 Brudens kommentar:</b>
+  <br>
+                  "Som troligtvis en av de bästa värdarna för middagar och festligheter är det givet att Erik ska vara vår Toastmaster. Inte bara är Erik en bra värd, utan har även tillsammans med min blivande man en erfarenhet inom mixologi på Brasiliens stränder. Nog har jag svårt att tro att någon kan sälja Bellinis bättre än Erik och Joel i badshorts och generöst uppknäppta skjortor."</p>
+  <br>
+                <p>🤵<b>‍ Brudgummens kommentar:</b>
+                  <p>När min 30 årskris slog till vid 24 års ålder fanns Erik redo att ta med mig på mitt livs äventyr. Jag kan än idag inte tänka mig en bättre kompanjon att utforska okänd terräng och vatten med.
+Erik är due-due, en ostoppbar balans av nordisk luther som ser att jobbet blir gjort och en italiensk casanova som ser till att leveransen sker med stil. Tillsammans med fru Josefin utgör de ett power couple av rang, men som alltid hittar tid för sina vänner. Med Erik vid rodret kommer vi alltid hem, mätta och belåtna.
+</p>
+              </div>
+          </div>
+          <p>•</p>
+    </div>
+  </div>
+  <div class="section6" id="tal">
+    <div class = "tal">
+      <h1>Vill du hålla tal?</h1>
+      <h2>Skicka ett mail till teamtildajoel@gmail.com senast den 10 oktober</h2>
+    </div>
+  </div>
+
+  <div class="section7" id="info">
+    <div class = "section3-text-field">
+      <h2>Information</h2>
+          <p>•</p>
+          <h3>Nedan finns svar på frågor man kan tänkas ha inför bröllopet.</br>Vid andra frågor, skicka ett mail till: teamtildajoel@gmail.com</h3>
+          <div class = "faq-questions">
+            <p><b>Vart ligger Grytsbergs Säteri?</b></p>
+            <p>Grytsbergs Säteri ligger i en vacker, sjönära miljö strax utanför Stjärnhov i Södermanland. Knappt 1,5 timme med bil från Stockholm. </p>
+            <a href = "https://goo.gl/maps/gYM5VivDGuuTstVZ7" target = "_blank">Klicka här för att se på Google Maps!</a>
+          </br><p><b>Vart ligger Gryts Kyrka?</b></p>
+            <p>Gryts kyrka ligger precis intill Grytsbergs Säteri, cirka en 3 minuters promenad.</p>
+            <p><b>Övernattning och boende</b></p>
+            <p>Boende är reserverat för samtliga gäster den 23-24 oktober på Grytsbergs Säteri. Där bor vi bekvämt i separata rum fördelat över flera olika hus, en hel by praktiskt taget! Ni som gäster behöver alltså inte boka eller betala något i förväg. Kostnad per person/natt ligger på 1200 kr och inkluderar frukost. Detta betalas vid utcheckning på söndagen. Lakan, handdukar och städning ingår.</p>
+            <p><b>Hur ska vi tänka kring barnen?</b></p>
+            <p>Vi har 18-årsgräns på hela bröllopet. Nyfödda ammandes barn kan givetvis hänga med, hänsyn till resterande gäster bör tas ut ur lokalen vid störande ljud.</p>
+            <p><b>Husdjur</b></p>
+            <p>Husdjur är tyvärr inte tillåtna på Grytsbergs.</p>
+            <p><b>Vad är det för dresscode?</b></p>
+            <p>För lördagen gäller smoking/Black tie</p>
+            <p><b>Vad önskar brudparet i bröllopspresent?</b></p>
+            <p>Att ni är med och firar oss under denna helg är tillräcklig bröllopspresent. Tack bästa ni!</p>
+            <p><b>Hur kan jag OSA? När är sista datumet för OSA?</b></p>
+            <p><a href = "https://docs.google.com/forms/d/1toi9mUNQa1NmzEieYmwWte-lMv5z239nuX7mu31idV0/edit?usp=sharing" target = "_blank">Klicka här för att OSA! </a>Sista datumet för att OSA är 20 augusti.</p>
+            <p><b>Hur anmäler jag intresse för att hålla ett bröllopstal?</b></p>
+            <p>Skicka ett mail till våra toastmasters: teamtildajoel@gmail.com</p>
+            <p><b>COVID-19 information:</b></p>
+            <p>Vi följer rådande rekommendationer noggrant och anpassar oss därefter. Skulle situationen förvärras till den grad att planerna förändras kommer vi att kommunicera detta via epost senast 22 augusti. Vi känner oss optimistiska och ser fram emot en fullskalig brakfest som inkluderar många varma kramar, svettiga tryckare och höga skratt. Det har vi längtat efter länge!</p>
+          </div>
+          <p>•</p>
+    </div>
+  </div>
+<div class = "footer-image">
+  <img src="Pictures/group.jpg">
+</div>
+    <footer>
+      Website built by Tilda Dahlgren <span style = "color: #ed0000;">♥</span> 2021
+    </footer>
+  </body>
+</html>
