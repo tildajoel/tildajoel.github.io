@@ -10,48 +10,33 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
     <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   </head>
   <body>
 
 
-    <div class = "container header-container" id ="nav-header">
-
-     <nav class="navbar navbar-toggleable-md navbar-light">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="">
-            <img alt="logo" src="Pictures/hemsida svartvit logo.png" width="40px;">
-        </a>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                  <a class="nav-link" href="">Hem</a>
-              </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#schema">Schema</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#team">Team TJ</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#info">Viktig information</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="nav-osa" href="#">OSA</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <div class="header">
+      <div class = "sigill"><img src = "Pictures/hemsida svartvit logo.png"></div>
+    <div class="topnav" id="myTopnav">
+      <a href="javascript:void(0);" class="icon" onclick="toggleState()">&#9776;</a>
+      <a href= "https://docs.google.com/forms/d/1toi9mUNQa1NmzEieYmwWte-lMv5z239nuX7mu31idV0/edit?usp=sharing" target = "_blank" class = "link" >OSA</a>
+      <a href="#info">Information</a>
+      <a href="#team">Team TJ</a>
+      <a href="#schema">Schema</a>
+      <a href="">Hem</a>
     </div>
+  </div>
 
+  <script>
+  function toggleState() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 
       </div>
   <div class = "section1"><img src ="Pictures/tildajoel.png"></div>
@@ -134,8 +119,8 @@
                   Dessa två tillsammans är ett av mina absolut favorit umgängen och Philip är alltid välkommen som en del av vår familj!"</p>
   <br>
                 <p>🤵<b>‍ Brudgummens kommentar:</b>
-                  <p>Philip har varit min närmsta vän och största rival sedan andra klass på Sigfridsborgsskolan. Han var även Ältas näst coolaste kille åren 1997-2004, en stor bravad. Philip är hjärta, värme och kärlek. Efter 25 års vänskap har jag fortfarande aldrig hört Philip säga “jag ger mig”. Extremt störande. Hans kämparglöd har varit lika intensiv på grusiga fotbollsplaner som i akademins salar och schweiziska kontorslandskap.
-Att Philip är till yrket är en serieentreprenör inom finans begränsar knappast hans generositet mot vänner och familj, som är oöverträffad. Ett bra exempel på detta är alla otaliga resor och fester som jag och Tilda firat tillsammans med Philip och hans bedårande hustru Lydia. Som mång en gång förr var Philip min Bacchus även under kvällen jag träffade Tilda för första gången. Han var även den första vän att bli introducerad för henne. Att ha Philip vid min sida under vår dag har för mig varit självklart länge, men något jag aldrig tagit för givet. Familjen Odermann har en särskild plats i vårt liv.
+                  <p>Philip har varit min närmsta vän och största rival sedan andra klass. Han var även Ältas näst coolaste kille åren 1997-2004, en stor bravad... Efter 25 års vänskap har jag fortfarande aldrig hört Philip säga “jag ger mig”. Extremt störande. Hans kämparglöd har varit lika intensiv på grusiga fotbollsplaner som i akademins salar och schweiziska konferensrum.
+Tillsammans med Philip och hans fantastiska fru Lydia har vi rest och firat, sörjt och filosoferat. Familjen Odermann har onekligen en viktig plats i vårt liv. Som mång en gång förr var Philip även min Bacchus kvällen jag träffade Tilda för första gången.
 </p>
               </div>
               <div class = "bröllopsfölje-person">
@@ -148,7 +133,8 @@ Att Philip är till yrket är en serieentreprenör inom finans begränsar knappa
                   Men under tonåren bondande vi ett starkt vänskapsband som håller sig starkt än idag. Så otroligt tacksam att vi har vår fina vänskap och systerskap!"</p>
   <br>
                 <p>🤵<b>‍ Brudgummens kommentar: </b>
-                  <p>Moa har varit med hela vägen, från första kvällen jag träffade Tilda. Moas öga för detalj och stil är en fantastiskt tillgång i hennes yrke som art director, men en direkt utmaning för mig som aspirerande svåger. Hon synar allt. Trots att vi har kommit en lång väg vet jag fortfarande inte om jag är godkänd. Att hon och hennes man Viktor nyligen blivit föräldrar till Freja har inte förbättrat mitt läge nämnvärt, men jag är mycket glad för deras skull.
+                  <p>Moa har varit med hela vägen, från första kvällen jag träffade Tilda. Moas öga för detalj och stil är en fantastiskt tillgång i hennes yrke som art director, men en direkt utmaning för mig som aspirerande svåger. Hon synar allt.
+Trots att vi har kommit en lång väg vet jag fortfarande inte om jag är godkänd. Att hon och hennes man Victor nyligen blivit föräldrar till Freja har inte förbättrat mitt läge nämnvärt, men jag är mycket glad för deras skull.
 </p>
               </div>
           </div>
@@ -162,7 +148,7 @@ Att Philip är till yrket är en serieentreprenör inom finans begränsar knappa
                 Trots att vi båda bott i olika delar av världen under stora perioder av vår vänskap, har vår vänskap alltid varit en självklarhet. Lika självklart som att ha dig som vår Toastmadame!"</p>
   <br>
                 <p>🤵<b>‍ Brudgummens kommentar:</b>
-                  <p>De alldeles för få tillfällen jag fått hänga med Anna har jag slagits av hennes varma energi och självsäkra trygghet. Anna bröt nyss upp från en lovande karriär inom media för att satsa på scenkonst och filmproduktion, jag är övertygad om att vi får se prov på detta under kvällen. Tagning!
+                  <p>De alldeles för få tillfällen jag fått hänga med Anna har jag slagits av hennes varma energi och trygghet. Anna bröt nyligen upp från en lovande karriär inom media för att satsa på scenkonst och filmproduktion. Jag är övertygad om att vi får se prov på detta under festen. Tagning!
 </p>
               </div>
               <div class = "bröllopsfölje-person">
@@ -170,11 +156,11 @@ Att Philip är till yrket är en serieentreprenör inom finans begränsar knappa
                 <h3>Erik Lindblad - Toastmaster</h3>
                 <p><b>👰 Brudens kommentar:</b>
   <br>
-                  "Som troligtvis en av världens bästa värdar för middagar och fester är det givet att Erik ska vara vår Toastmaster. Inte bara är Erik en bra värd, utan har även tillsammans med min blivande man en erfarenhet inom mixologi på Brasiliens stränder. Nog har jag svårt att tro att någon kan sälja Bellinis bättre än Erik och Joel i badshorts och generöst uppknäppta skjortor."</p>
+                  "Som troligtvis en av de bästa värdarna för middagar och festligheter är det givet att Erik ska vara vår Toastmaster. Inte bara är Erik en bra värd, utan har även tillsammans med min blivande man en erfarenhet inom mixologi på Brasiliens stränder. Nog har jag svårt att tro att någon kan sälja Bellinis bättre än Erik och Joel i badshorts och generöst uppknäppta skjortor."</p>
   <br>
                 <p>🤵<b>‍ Brudgummens kommentar:</b>
-                  <p>När min 30 årskris slog till vid 24 års ålder fanns Erik redo att ta med mig på mitt livs äventyr. Jag kan än idag inte tänka mig en bättre kompanjon att utforska okänd terräng och hav med.
-Erik är due-due, en mix av nordisk praktik och italiensk äventyrslustan. Erik är handlingskraft personifierat och hans breda palette kan kanske bäst beskrivas (men låter sig aldrig definieras) av sitt spektakulära CV, som i kronologisk ordning lyder: Bagare, Jäger-meister, oljetrader, bartender, skeppare, fryst fruktgrossist, kalsongförsäljare, finans VD. Med Erik vid rodret kommer vi alltid hem, mätta och belåtna.
+                  <p>När min 30 årskris slog till vid 24 års ålder fanns Erik redo att ta med mig på mitt livs äventyr. Jag kan än idag inte tänka mig en bättre kompanjon att utforska okänd terräng och vatten med.
+Erik är due-due, en ostoppbar balans av nordisk luther som ser att jobbet blir gjort och en italiensk casanova som ser till att leveransen sker med stil. Tillsammans med fru Josefin utgör de ett power couple av rang, men som alltid hittar tid för sina vänner. Med Erik vid rodret kommer vi alltid hem, mätta och belåtna.
 </p>
               </div>
           </div>
@@ -184,27 +170,29 @@ Erik är due-due, en mix av nordisk praktik och italiensk äventyrslustan. Erik 
   <div class="section6" id="tal">
     <div class = "tal">
       <h1>Vill du hålla tal?</h1>
-      <h2>Skicka ett mail till teamtildajoel@gmail.com senast den 20 augusti</h2>
+      <h2>Skicka ett mail till teamtildajoel@gmail.com senast den 10 oktober</h2>
     </div>
   </div>
 
   <div class="section7" id="info">
     <div class = "section3-text-field">
-      <h2>Viktig information</h2>
+      <h2>Information</h2>
           <p>•</p>
           <h3>Nedan finns svar på frågor man kan tänkas ha inför bröllopet.</br>Vid andra frågor, skicka ett mail till: teamtildajoel@gmail.com</h3>
           <div class = "faq-questions">
-            <p><b>Var ligger Grytsbergs Säteri?</b></p>
-            <p>Grytsbergs Säteri ligger i en vacker, sjönära miljö strax utanför Stjärnhov i Södermanland. Knappt 1,5 timme med bil från Stockholm.</p>
+            <p><b>Vart ligger Grytsbergs Säteri?</b></p>
+            <p>Grytsbergs Säteri ligger i en vacker, sjönära miljö strax utanför Stjärnhov i Södermanland. Knappt 1,5 timme med bil från Stockholm. </p>
             <a href = "https://goo.gl/maps/gYM5VivDGuuTstVZ7" target = "_blank">Klicka här för att se på Google Maps!</a>
-            </br><p><b>Var ligger Gryts Kyrka?</b></p>
+          </br><p><b>Vart ligger Gryts Kyrka?</b></p>
             <p>Gryts kyrka ligger precis intill Grytsbergs Säteri, cirka en 3 minuters promenad.</p>
-            <p><b>Är det övernattning?</b></p>
-            <p>Ja, övernattning är reserverat för samtliga gäster den 23-24 oktober och betalas på plats i receptionen. Ni som gäster behöver alltså inte boka eller betala något i förväg. Kostnad per person/natt ligger på 1200 kr inklusive frukost. Lakan, handdukar och städning ingår.</p>
-            <p><b>Är barn välkomna?</b></p>
-            <p>Barn är tyvärr inte välkomna, vi har 18-årsgräns på hela bröllopet. Likaså gäller husdjur. Nyfödda ammandes barn är tillåtna, men med hänsyn till resterande gäster bör tas ut ur lokalen vid störande ljud.</p>
+            <p><b>Övernattning och boende</b></p>
+            <p>Boende är reserverat för samtliga gäster den 23-24 oktober på Grytsbergs Säteri. Där bor vi bekvämt i separata rum fördelat över flera olika hus, en hel by praktiskt taget! Ni som gäster behöver alltså inte boka eller betala något i förväg. Kostnad per person/natt ligger på 1200 kr och inkluderar frukost. Detta betalas vid utcheckning på söndagen. Lakan, handdukar och städning ingår.</p>
+            <p><b>Hur ska vi tänka kring barnen?</b></p>
+            <p>Vi har 18-årsgräns på hela bröllopet. Nyfödda ammandes barn kan givetvis hänga med, hänsyn till resterande gäster bör tas ut ur lokalen vid störande ljud.</p>
+            <p><b>Husdjur</b></p>
+            <p>Husdjur är tyvärr inte tillåtna på Grytsbergs.</p>
             <p><b>Vad är det för dresscode?</b></p>
-            <p>Smoking</p>
+            <p>För lördagen gäller smoking/Black tie</p>
             <p><b>Vad önskar brudparet i bröllopspresent?</b></p>
             <p>Att ni är med och firar oss under denna helg är tillräcklig bröllopspresent. Tack bästa ni!</p>
             <p><b>Hur kan jag OSA? När är sista datumet för OSA?</b></p>
@@ -212,7 +200,7 @@ Erik är due-due, en mix av nordisk praktik och italiensk äventyrslustan. Erik 
             <p><b>Hur anmäler jag intresse för att hålla ett bröllopstal?</b></p>
             <p>Skicka ett mail till våra toastmasters: teamtildajoel@gmail.com</p>
             <p><b>COVID-19 information:</b></p>
-            <p>Vi håller oss uppdaterade på rekommendationerna och känner oss optimistiska!</p>
+            <p>Vi följer rådande rekommendationer noggrant och anpassar oss därefter. Skulle situationen förvärras till den grad att planerna förändras kommer vi att kommunicera detta via epost senast 22 augusti. Vi känner oss optimistiska och ser fram emot en fullskalig brakfest som inkluderar många varma kramar, svettiga tryckare och höga skratt. Det har vi längtat efter länge!</p>
           </div>
           <p>•</p>
     </div>
